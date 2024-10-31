@@ -2,8 +2,11 @@
 #include <fstream>
 using namespace std;
 
-void registration() {
-	system("cls");
-	string regUserId, regPassword, rId, rPass;
+void Registration() {
+	string rUserId, rPasswrod, rId, rPass;
+
+
+}
+void Login() {
 
 }

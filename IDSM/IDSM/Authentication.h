@@ -1,3 +1,5 @@
 #include <iostream>
 
-void sub(int a, int b);
+void Registration();
+
+void Login();
