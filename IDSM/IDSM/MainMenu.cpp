@@ -36,7 +36,7 @@ void optionsMenu() {
 	cout << setw(62) << "[1] Login         " << "[2] Register" << endl;
 	cout << setw(61) << "[3] About us    " << "[4] Exit" << endl;
 	cout << endl;
-	cout << setw(69) << "Please choose an option: ";
+	cout << setw(71) << "Please choose an option: ";
 	cin >> opt;
 	switch (opt)
 	{
