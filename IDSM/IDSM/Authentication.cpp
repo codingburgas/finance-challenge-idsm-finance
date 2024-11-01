@@ -4,8 +4,32 @@
 #include "MainMenu.h"
 #include "Finances.h"
 using namespace std;
-void Login() {
+	void Login() {
+		system("cls");
+		AsciiArt();
+		string userId, password, id, pass;
+		int mainMenuNum;
+		cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+		cout << setw(66) << "Welcome to IDSM" << endl;
+		cout << endl;
+		cout << setw(63) << "Login Menu" << endl;
+		cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+		cout << setw(60) << "Username: ";
+		cin >> userId;
+		cout << endl;
+		cout << setw(60) << "Password: ";
+		cin >> password;
 
+		ifstream checkLogin("regInfo.txt");
+
+		while (checkLogin >> id >> pass) {
+			if (userId == id && password == pass) {
+				FinancesMenu();
+			}
+			else {
+				cout << setw(75) << "Your Username or Password is incorrect!" << endl;
+			}
+		}
 }
 void Registration() {
 	system("cls");
