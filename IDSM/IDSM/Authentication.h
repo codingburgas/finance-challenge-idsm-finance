@@ -1,4 +1,4 @@
 #include <iostream>
-void Registration();
 
+void Registration();
 void Login();

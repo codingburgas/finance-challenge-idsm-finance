@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include "Authentication.h"
+#include "FinancesMenu.h"
 using namespace std;
 double MyBalance = 8170.42;
 void AsciiArt();
@@ -13,11 +15,12 @@ void BalanceCurrencyConverter() {
 
 	cout << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(64) << "Balance Currency Converter";
+	cout << setw(64) << "Balance Currency Converter" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
-	cout << setw(63) << "1. Euro (EUR)\n";
-	cout << setw(63) <<  "2. US Dollar (USD)\n";
-	cout << setw(63) <<  "3. British Pound (GBP)\n";
+	cout << setw(63) << "1. Euro (EUR)" << endl;
+	cout << setw(63) << "2. US Dollar (USD)" << endl;
+	cout << setw(63) << "3. British Pound (GBP)" << endl;
 	cout << setw(63) << "Which one do you want: ";
 	cin >> choice;
 
@@ -37,23 +40,28 @@ void Balance() {
 	int op;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(63) << "Balance " << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
-	cout << setw(65) << "Your current balance is " << MyBalance << endl;
+	cout << setw(67) << "Your current balance is " << MyBalance << endl;
 	cout << endl;
-	cout << setw(64) << "[1] Balance Currency Converter" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(66) << "[1] Balance Currency Converter       " << "[2] Go Back to Menu" << endl;
 	cout << endl;
+	cout << setw(71) << "Please enter an option: ";
 	cin >> op;
 	cout << endl;
 	if (op == 1) {
 		BalanceCurrencyConverter();
 	}
+	if (op == 2) {
+		FinancesMenu();
+	}
 }
-
 void transfermoney() {
 	string recipient;
 	string recipientaccount;
 	double amount;
-
+	cin.ignore();
 	cout << "=== Transfer Money === " << endl;
 	cout << "Enter recipient's name: ";
 	getline(cin, recipient);
@@ -64,7 +72,7 @@ void transfermoney() {
 	cout << "Enter amount to transfer: ";
 	cin >> amount;
 
-	cout << "Transfer Details:";
+	cout << "Transfer Details:"; 
 	cout << "Recipient: " << recipient << endl;
 	cout << "Account Number: " << recipientaccount << endl;
 	cout << "Amount: " << fixed << setprecision(2) << amount << " BGN\n";
@@ -104,11 +112,6 @@ void More() {
 	AsciiArt();
 	cout << "a";
 }
-void Exchange() {
-	system("cls");
-	AsciiArt();
-	cout << "a";
-}
 void Investing() {
 	system("cls");
 	AsciiArt();
@@ -128,40 +131,4 @@ void Settings() {
 	system("cls");
 	AsciiArt();
 	cout << "a";
-}
-void FinancesMenu() {
-	system("cls");
-	AsciiArt();
-	int opti;
-	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(56) << "Welcome " << endl;
-	cout << endl;
-	cout << endl;
-	cout << setw(62) << "[1] Balance         " << "[2] Transfer" << endl;
-	cout << setw(61) << "[3] Transactions    " << "[4] More" << endl;
-	cout << endl;
-	cout << setw(71) << "Please choose an option: ";
-	cin >> opti;
-	switch (opti)
-	{
-	case 1:
-		Balance();
-		break;
-
-	case 2:
-		Transfer();
-		break;
-
-	case 3:
-		Transactions();
-		break;
-
-	case 4:
-		More();
-		break;
-
-	default:
-		break;
-
-	}
 }

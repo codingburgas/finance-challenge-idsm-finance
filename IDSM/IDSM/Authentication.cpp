@@ -1,14 +1,15 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <string>
 #include "MainMenu.h"
 #include "Finances.h"
+#include "Authentication.h"
 using namespace std;
-
 	void Login() {
+		string userId, password, id, pass;
 		system("cls");
 		AsciiArt();
-		string userId, password, id, pass;
 		int mainMenuNum;
 		cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 		cout << setw(66) << "Welcome to IDSM" << endl;
@@ -28,7 +29,8 @@ using namespace std;
 				FinancesMenu();
 			}
 			else {
-				cout << setw(75) << "Your Username or Password is incorrect!" << endl;
+				cout << endl;
+				cout << setw(78) << "Your Username or Password is incorrect!" << endl;
 			}
 		}
 }
