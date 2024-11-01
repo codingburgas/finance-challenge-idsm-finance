@@ -4,6 +4,7 @@
 #include "MainMenu.h"
 #include "Finances.h"
 using namespace std;
+
 	void Login() {
 		system("cls");
 		AsciiArt();
