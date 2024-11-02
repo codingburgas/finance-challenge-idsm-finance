@@ -31,6 +31,7 @@ using namespace std;
 			else {
 				cout << endl;
 				cout << setw(78) << "Your Username or Password is incorrect!" << endl;
+				break;
 			}
 		}
 }

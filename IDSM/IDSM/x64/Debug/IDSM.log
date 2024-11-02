@@ -1,3 +1,2 @@
-﻿  Authentication.cpp
-D:\finance-challenge-idsm-finance\IDSM\IDSM\Authentication.cpp(13,7): warning C4101: 'mainMenuNum': unreferenced local variable
-  IDSM.vcxproj -> D:\finance-challenge-idsm-finance\IDSM\x64\Debug\IDSM.exe
+﻿  Finances.cpp
+  IDSM.vcxproj -> C:\Users\User\finance-challenge-idsm-finance\IDSM\x64\Debug\IDSM.exe
