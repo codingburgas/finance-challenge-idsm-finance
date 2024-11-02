@@ -3,6 +3,7 @@
 #include <string>
 #include "Authentication.h"
 #include "FinancesMenu.h"
+#include "Windows.h"
 using namespace std;
 double MyBalance = 8170.42;
 void AsciiArt();
@@ -42,12 +43,12 @@ void Balance() {
 	cout << setw(63) << "Balance " << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
-	cout << setw(67) << "Your current balance is " << MyBalance << endl;
+	cout << setw(65) << "Your current balance is " << MyBalance << " BGN" << endl;
 	cout << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(66) << "[1] Balance Currency Converter       " << "[2] Go Back to Menu" << endl;
 	cout << endl;
-	cout << setw(71) << "Please enter an option: ";
+	cout << setw(70) << "Please enter an option: ";
 	cin >> op;
 	cout << endl;
 	if (op == 1) {
@@ -56,57 +57,53 @@ void Balance() {
 	if (op == 2) {
 		FinancesMenu();
 	}
-}
-void transfermoney() {
-	string recipient;
-	string recipientaccount;
-	double amount;
-	cin.ignore();
-	cout << "=== Transfer Money === " << endl;
-	cout << "Enter recipient's name: ";
-	getline(cin, recipient);
-	cout << endl;
-	cout << "Enter recipient's account number: ";
-	getline(cin, recipientaccount);
-	cout << endl;
-	cout << "Enter amount to transfer: ";
-	cin >> amount;
-
-	cout << "Transfer Details:"; 
-	cout << "Recipient: " << recipient << endl;
-	cout << "Account Number: " << recipientaccount << endl;
-	cout << "Amount: " << fixed << setprecision(2) << amount << " BGN\n";
-	cout << "Your current balance is: " << MyBalance << " BGN\n";
-
-	char confirmation;
-	cout << "Confirm transfer? (y/n): ";
-	cin >> confirmation;
-
-	if (confirmation == 'y' || confirmation == 'Y') {
-		if (amount > MyBalance) {
-			cout << "Error: Insufficient funds. Your current balance is " << MyBalance << " BGN.\n";
-		}
-		else {
-			MyBalance -= amount;
-			cout << "Transfer successful! Your new balance is "
-				<< fixed << setprecision(2) << MyBalance << " BGN.\n";
-			cout << "Thank you! The transfer to " << recipient << " was successful.\n";
-		}
-	}
 	else {
-		cout << "Transfer cancelled.\n";
+		Balance();
 	}
 }
 void Transfer() {
 	system("cls");
 	AsciiArt();
-	transfermoney();
+	string recipient;
+	string recipientaccount;
+	double amount;
+	cin.ignore();
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(66) << "Transfer Money " << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(68) <<"Enter recipient's name: ";
+	getline(cin, recipient);
+	cout << endl;
+	cout << setw(74) << "Enter recipient's account number: ";
+	getline(cin, recipientaccount);
+	cout << endl;
+	cout << setw(69) << "Enter amount to transfer: ";
+	cin >> amount;
+
+	system("cls");
+	AsciiArt();
+	char zero;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(67)  << "Transfer Details" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(63) << "Recipient: " << recipient << endl;
+	cout << endl;
+	cout << setw(66) << "Account Number: " << recipientaccount << endl;
+	cout << endl;
+	cout << setw(58) << "Amount: " << fixed << setprecision(2) << amount << " BGN" << endl;
+	cout << endl;
+	cout << setw(65) << "Your current balance is: " << MyBalance << " BGN" << endl;
+	cout << endl;
+	Sleep(2300);
+	FinancesMenu();
 }
 void Transactions() {
 	system("cls");
 	AsciiArt();
-	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(60) << "Transactions " << endl;
+	int zero;
+	cout << setw(77) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(66) << "Transactions " << endl;
+	cout << setw(77) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
 	cout << endl;
 	cout << setw(60) << " 30.10 -- Successful transaction - 107.99 BGN";
@@ -124,27 +121,51 @@ void Transactions() {
 	cout << setw(60) << " 26.10 -- Successful transaction - 50.00 BGN";
 	cout << setw(45) << " DSK BANK ATN CENTER";
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-
+	cout << endl;
+	cout << setw(75) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		FinancesMenu();
+	}
+	else {
+		Transactions();
+	}
 }
 
 void Investing() {
 	system("cls");
 	AsciiArt();
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(67) << "Investing " << endl;
+	cout << setw(64) << "Investing " << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(71) << "Portfolio =  10774.93 BGN" << endl;
 	cout << endl;
-	cout << setw(77) << "Portfolio =  10774.93 BGN" << endl;
-	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(73) << "S & P 500 = 0.5 (5155,76 BGN)  +7.32% " << endl;
-	cout << setw(73) << "AAPL = 3.5 (1404.2 BGN)  +1.20% " << endl;
-	cout << setw(73) << "TSLA = 9 (4025.7 BGN)  +11.66% " << endl;
-	cout << setw(73) << "GOOG = 1.1 (189,27 BGN)  -1.33% " << endl;
+	cout << setw(78) << "S & P 500 = 0.5 (5155,76 BGN)  +7.32% " << endl;
+	cout << endl;
+	cout << setw(75) << "AAPL = 3.5 (1404.2 BGN)  +1.20% " << endl;
+	cout << endl;
+	cout << setw(75) << "TSLA = 9 (4025.7 BGN)  +11.66% " << endl;
+	cout << endl;
+	cout << setw(75) << "GOOG = 1.1 (189,27 BGN)  -1.33% " << endl;
+	cout << endl;
+	cout << endl;
+	cout << setw(74) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		FinancesMenu();
 	}
+	else {
+		Investing();
+	}
+}
 void Notifications() {
 	system("cls");
 	AsciiArt();
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(67) << "Notifications " << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
 	cout << endl;
 	cout << setw(60) << "Successful transaction for 107.99 BGN";
@@ -164,10 +185,23 @@ void Notifications() {
 	cout << setw(105) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(60) << "Successful transaction for 14.75 BGN";
 	cout << setw(45) << "27.10";
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << setw(75) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		More();
+	}
+	else {
+		Notifications();
+	}
 }
-void My_Profile() {
+
+void myProfile() {
 	system("cls");
 	AsciiArt();
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(67) << "My Profile " << endl;
 	cout << endl;
@@ -177,97 +211,123 @@ void My_Profile() {
 		cout << setw(71) << "Account Number:   100090001" << endl; 
 		cout << setw(81) << "Cards Associated with Your Account:   1" << endl;
 		cout << setw(77) << "Current Available Balance:    " << MyBalance << endl;
-
+		cout << endl;
+		cout << setw(75) << "Enter '0' to Go Back to Menu: ";
+		cin >> zero;
+		if (zero == 0) {
+			More();
+		}
+		else {
+			myProfile();
+		}
 }
 
 void SecuritySettings(){
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(67) << "Security Settings" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(75) << "2-Factor Authentication: Enabled" << endl;
 	cout << endl;
-	cout << setw(67) << "2-Factor Authentication: Enabled" << endl;
-	cout << setw(67) << "Last Login: 2024-11-05 12:30 PM" << endl;
-	cout << setw(67) << "Password Last Changed: 2024-10-30" << endl;
+	cout << setw(74) << "Last Login: 2024-11-05 12:30 PM" << endl;
+	cout << endl;
+	cout << setw(75) << "Password Last Changed: 2024-10-30" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << endl;
+	cout << setw(74) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		More();
+	}
+	else {
+		SecuritySettings();
+	}
 }
 
 void NotificatonsPreferences() {
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(67) << "Notifications Preferences" << endl;
+	cout << setw(71) << "Notifications Preferences" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(74) << "1. Transaction Alerts: Enabled" << endl;
 	cout << endl;
-	cout << setw(67) << "1. Transaction Alerts: Enabled" << endl;
-	cout << setw(67) << "2. Account Activity Alerts: Enabled" << endl;
-	cout << setw(67) << "3. Promotional Notifications: Disabled" << endl;
+	cout << setw(76) << "2. Account Activity Alerts: Enabled" << endl;
+	cout << endl;
+	cout << setw(78) << "3. Promotional Notifications: Disabled" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << endl;
+	cout << setw(75) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		More();
+	}
+	else {
+		NotificatonsPreferences();
+	}
 }
 void ContactSupport() {
+	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(67) << "Contact Support" << endl;
-	cout << setw(100) << "If you need any type of assistance call: 00359 876 82 0599 or " << endl;
-	cout << setw(100) << "send a mail at support@idsmfinances.com " << endl;
+	cout << setw(66) << "Contact Support" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << endl;
+	cout << setw(90) << "If you need any type of assistance call: 00359 876 82 0599 or " << endl;
+	cout << setw(77) << "send a mail at support@idsmfinances.com " << endl;
+
+	cout << endl;
+	cout << setw(74) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
+	if (zero == 0) {
+		More();
+	}
+	else {
+		ContactSupport();
+	}
 }
 void Settings() {
 	system("cls");
 	AsciiArt();
 	int option;
-	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(65) << "Settings" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(62) << "Settings" << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
+	cout << setw(71) << "[1] View Security Settings" << endl;
 	cout << endl;
-	cout << setw(63) << "[1] View Security Settings" << endl;
-	cout << setw(67) << "[2] Notification Preferences" << endl;
-	cout << setw(62) << "[3] Contact Support" << endl;
+	cout << setw(72) << "[2] Notification Preferences" << endl;
+	cout << endl;
+	cout << setw(67) << "[3] Contact Support" << endl;
+	cout << endl;
+	cout << setw(67) << "[4] Go Back to Menu" << endl;
+	cout << endl;
 	cout << endl;
 	cout << setw(71) << "Please choose an option: ";
 	cin >> option;
 	switch (option)
 	{
 	case 1:
+		system("cls");
+		AsciiArt();
 		SecuritySettings();
 		break;
 
 	case 2:
+		system("cls");
+		AsciiArt();
 		NotificatonsPreferences();
 		break;
 
 	case 3:
+		system("cls");
+		AsciiArt();
 		ContactSupport();
 		break;
 		
-	default:
-		break;
-
-	}
-}
-void More() {
-	system("cls");
-	AsciiArt();
-	int optio;
-	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << endl;
-	cout << endl;
-	cout << setw(63) << "[1] Investing        " << "[2] Notifications" << endl;
-	cout << setw(62) << "[3] My Profile  " << "[4] Settings" << endl;
-	cout << endl;
-	cout << setw(71) << "Please choose an option: ";
-	cin >> optio;
-	switch (optio)
-	{
-	case 1:
-		Investing();
-		break;
-
-	case 2:
-		Notifications();
-		break;
-
-	case 3:
-		My_Profile();
-		break;
-
 	case 4:
-		Settings();
+		More();
 		break;
-
 	default:
+		Settings();
 		break;
 
 	}

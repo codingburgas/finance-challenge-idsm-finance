@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\finance-challenge-idsm-finance\\IDSM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Authentication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Finances.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\FinancesMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Finances.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Authentication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Finances.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\Authentication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1B34B18F-3F18-4AAC-85EC-C609053D03F3}|IDSM\\IDSM.vcxproj|solutionrelative:IDSM\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,75 +46,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FinancesMenu.h",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.h",
               "RelativeDocumentMoniker": "IDSM\\FinancesMenu.h",
               "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.h",
               "RelativeToolTip": "IDSM\\FinancesMenu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T22:59:28.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FinancesMenu.cpp",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.cpp",
               "RelativeDocumentMoniker": "IDSM\\FinancesMenu.cpp",
               "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\FinancesMenu.cpp",
               "RelativeToolTip": "IDSM\\FinancesMenu.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T22:58:23.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Finances.cpp",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.cpp",
               "RelativeDocumentMoniker": "IDSM\\Finances.cpp",
-              "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.cpp",
-              "RelativeToolTip": "IDSM\\Finances.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.cpp*",
+              "RelativeToolTip": "IDSM\\Finances.cpp*",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAANkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T17:46:27.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Finances.h",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.h",
               "RelativeDocumentMoniker": "IDSM\\Finances.h",
               "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Finances.h",
               "RelativeToolTip": "IDSM\\Finances.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T11:55:11.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\main.cpp",
               "RelativeDocumentMoniker": "IDSM\\main.cpp",
               "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\main.cpp",
               "RelativeToolTip": "IDSM\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-31T14:28:38.456Z"
+              "WhenOpened": "2024-10-31T14:28:38.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainMenu.h",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.h",
               "RelativeDocumentMoniker": "IDSM\\MainMenu.h",
@@ -127,33 +128,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainMenu.cpp",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.cpp",
               "RelativeDocumentMoniker": "IDSM\\MainMenu.cpp",
               "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\MainMenu.cpp",
               "RelativeToolTip": "IDSM\\MainMenu.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-31T22:45:42.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Authentication.cpp",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.cpp",
               "RelativeDocumentMoniker": "IDSM\\Authentication.cpp",
-              "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.cpp*",
-              "RelativeToolTip": "IDSM\\Authentication.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
+              "ToolTip": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.cpp",
+              "RelativeToolTip": "IDSM\\Authentication.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-31T22:46:39.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Authentication.h",
               "DocumentMoniker": "D:\\finance-challenge-idsm-finance\\IDSM\\IDSM\\Authentication.h",
               "RelativeDocumentMoniker": "IDSM\\Authentication.h",
@@ -161,8 +162,7 @@
               "RelativeToolTip": "IDSM\\Authentication.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-31T22:46:29.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T22:46:29.478Z"
             }
           ]
         }

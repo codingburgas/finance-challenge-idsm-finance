@@ -57,6 +57,9 @@ void optionsMenu() {
 		break;
 
 	default:
+		system("cls");
+		AsciiArt();
+		optionsMenu();
 		break;
 	}
 
