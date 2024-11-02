@@ -203,17 +203,18 @@ void myProfile() {
 	AsciiArt();
 	int zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(67) << "My Profile " << endl;
+	cout << setw(65) << "My Profile " << endl;
+	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+
+	cout << setw(68) << "First Name: Iliyan" << endl;
+	cout << setw(68) << "Last Name: Stanchev" << endl;
+	cout << setw(62) << "Age: 18" << endl;
+	cout << setw(72) << "Account Number:   100090001" << endl; 
+	cout << setw(77) << "Cards Associated with Your Account:  1" << endl;
+	cout << setw(69) << "Current Available Balance:  " << MyBalance << endl;
 	cout << endl;
-	cout << setw(66) << "First Name:     Iliyan" << endl;
-	cout << setw(65) << "Last Name:    Stanchev" << endl;
-		cout << setw(55) << "Age:  18" << endl;
-		cout << setw(71) << "Account Number:   100090001" << endl; 
-		cout << setw(81) << "Cards Associated with Your Account:   1" << endl;
-		cout << setw(77) << "Current Available Balance:    " << MyBalance << endl;
-		cout << endl;
-		cout << setw(75) << "Enter '0' to Go Back to Menu: ";
-		cin >> zero;
+	cout << setw(74) << "Enter '0' to Go Back to Menu: ";
+	cin >> zero;
 		if (zero == 0) {
 			More();
 		}
