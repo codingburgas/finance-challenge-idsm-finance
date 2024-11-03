@@ -6,7 +6,7 @@
 ## 🗂️ Used technologies
  <p align="left"> 
     <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio-code.png" alt="Visual Studio Code"/></a>
-    <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio.png" alt="Visual Studio" width="50" height="50" /></a>
+    <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio.png" alt="Visual Studio" width="40" height="40" /></a>
       <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="pictures/powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
       <a href="https://github.com/"> <img src="pictures/github.png" alt="GitHub Logo" width=48px/></a>
       <a href="https://discord.com/"> <img src="pictures/discord.png" alt="Discord Logo" width=48px/></a>
@@ -16,7 +16,7 @@
 ### Documentation
   [Documentation]()
 ### Presentation
-[Presentation]()
+[Presentation](files/IDSM-Presentation.pptx)
 
 ## Our Team 
 - <a href = "https://github.com/SBIvanov22"> Stefan Ivanov </a> -> Backend Developer 🟨 10A
