@@ -6,7 +6,7 @@
 ## 🗂️ Used technologies
  <p align="left"> 
     <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio-code.png" alt="Visual Studio Code"/></a>
-    <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio.png" alt="Visual Studio" /></a>
+    <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio.png" alt="Visual Studio" width="200" height="200" /></a>
       <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="pictures/powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
       <a href="https://github.com/"> <img src="pictures/github.png" alt="GitHub Logo" width=48px/></a>
       <a href="https://discord.com/"> <img src="pictures/discord.png" alt="Discord Logo" width=48px/></a>
