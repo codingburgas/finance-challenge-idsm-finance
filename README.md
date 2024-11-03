@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u5k3noT3)
 # Team IDSM Finances
-<img src="pictures/logo.png">
+<img src="pictures/logo.png" width=50px; >
 
 ## 🚀 Languages Used
 <p align="left">
@@ -20,7 +20,7 @@
 
 ## 📄 Documents
 ### Documentation
-  [Documentation](files/)
+  [Documentation](files/Documentation.docx)
 ### Presentation    
 [Presentation](files/IDSM-Presentation.pptx)
 
