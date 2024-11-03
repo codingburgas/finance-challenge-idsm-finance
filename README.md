@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1>IDSM Finances</h1>
   <img src="pictures/logo.png" alt="IDSM Logo" width="200px">
