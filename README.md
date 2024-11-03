@@ -9,13 +9,13 @@
     <a href="https://code.visualstudio.com/"><img src="pictures/visualstudio.png" alt="Visual Studio" width="40" height="40" /></a>
       <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="pictures/powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
       <a href="https://github.com/"> <img src="pictures/github.png" alt="GitHub Logo" width=48px/></a>
-      <a href="https://discord.com/"> <img src="pictures/discord.png" alt="Discord Logo" width=48px/></a>
-      <a href="https://word.com/"> <img src="pictures/word.png" alt="Word Logo" width="50" height="40"/></a>
+      <a href="https://teams.com/"> <img src="pictures/teams.jpg" alt="Teams Logo" width=48px/></a>
+      <a href="https://word.com/"> <img src="pictures/word.png" alt="Word Logo" width="52" height="40"/></a>
     </p> 
 
 ## 📄 Documents
 ### Documentation
-  [Documentation]()
+  [Documentation](files/)
 ### Presentation
 [Presentation](files/IDSM-Presentation.pptx)
 
