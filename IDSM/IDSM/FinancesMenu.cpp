@@ -5,7 +5,7 @@
 
 using namespace std;
 void FinancesMenu() {
-	while (true) {
+	
 		system("cls");
 		AsciiArt();
 		int opti;
@@ -13,9 +13,10 @@ void FinancesMenu() {
 		cout << setw(66) << "Welcome to IDSM" << endl;
 		cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 		cout << endl;
+		cout << setw(60) << "[1] Balance    " << "[2] Transfer" << endl;
 		cout << endl;
-		cout << setw(63) << "[1] Balance         " << "[2] Transfer" << endl;
-		cout << setw(62) << "[3] Transactions  " << "[4] More" << endl;
+		cout << setw(57) << "[3] Transactions  " << "[4] More  " << "[5] Log Out" << endl;
+		cout << endl;
 		cout << endl;
 		cout << setw(71) << "Please choose an option: ";
 		cin >> opti;
@@ -37,6 +38,10 @@ void FinancesMenu() {
 			More();
 			break;
 
+		case 5:
+			system("cls");
+			AsciiArt();
+			optionsMenu();
 		default:
 			system("cls");
 			AsciiArt();
@@ -45,7 +50,7 @@ void FinancesMenu() {
 		}
 
 	}
-}
+
 void More() {
 	system("cls");
 	AsciiArt();
@@ -54,9 +59,10 @@ void More() {
 	cout << setw(66) << "Welcome to IDSM" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << endl;
-	cout << endl;
 	cout << setw(60) << "[1] Investing     " << "[2] Notifications" << endl;
+	cout << endl;
 	cout << setw(54) << "[3] My Profile  " << "[4] Settings  " << "[5] Go Back" << endl;
+	cout << endl;
 	cout << endl;
 	cout << setw(71) << "Please choose an option: ";
 	cin >> optio;

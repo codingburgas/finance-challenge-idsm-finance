@@ -8,6 +8,8 @@ using namespace std;
 double MyBalance = 8170.42;
 void AsciiArt();
 void BalanceCurrencyConverter() {
+	system("cls");
+	AsciiArt();
 	int choice;
 	const double balance = 8170.42;
 	const double eur = 0.51;
@@ -16,23 +18,32 @@ void BalanceCurrencyConverter() {
 
 	cout << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(64) << "Balance Currency Converter" << endl;
+	cout << setw(72) << "Balance Currency Converter" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+	cout << setw(66) << "[1] Euro (EUR)" << endl;
 	cout << endl;
-	cout << setw(63) << "1. Euro (EUR)" << endl;
-	cout << setw(63) << "2. US Dollar (USD)" << endl;
-	cout << setw(63) << "3. British Pound (GBP)" << endl;
-	cout << setw(63) << "Which one do you want: ";
+	cout << setw(69) << "[2] US Dollar (USD)" << endl;
+	cout << endl;
+	cout << setw(71) << "[3] British Pound (GBP)" << endl;
+	cout << endl;
+	cout << endl;
+	cout << setw(71) << "Which one do you want: ";
 	cin >> choice;
-
+	cout << endl;
 	if (choice == 1) {
-		cout << "Your Balance in Euro(EUR) is " << balance * eur <<" EUR" << endl;
+		cout << setw(68) << "Your Balance in Euro(EUR) is " << balance * eur <<" EUR" << endl;
+		Sleep(2500);
+		FinancesMenu();
 	}
 	if (choice == 2) {
-		cout << "Your Balance in US Dollar(USD) is " << balance * usd << " USD" << endl;
+		cout << setw(71) << "Your Balance in US Dollar(USD) is " << balance * usd << " USD" << endl;
+		Sleep(2500);
+		FinancesMenu();
 	}
 	if (choice == 3) {
-		cout << "Your Balance in British Pound(GBP) is " << balance * gbp << " GBP" << endl;
+		cout << setw(73) << "Your Balance in British Pound(GBP) is " << balance * gbp << " GBP" << endl;
+		Sleep(2500);
+		FinancesMenu();
 	}
 }
 void Balance() {
@@ -57,45 +68,61 @@ void Balance() {
 	if (op == 2) {
 		FinancesMenu();
 	}
-	else {
-		Balance();
-	}
 }
 void Transfer() {
 	system("cls");
 	AsciiArt();
 	string recipient;
-	string recipientaccount;
+	string recipientAccount;
 	double amount;
+
 	cin.ignore();
+
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(66) << "Transfer Money " << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(68) <<"Enter recipient's name: ";
+	cout << setw(68) << "Enter recipient's name: ";
 	getline(cin, recipient);
 	cout << endl;
 	cout << setw(74) << "Enter recipient's account number: ";
-	getline(cin, recipientaccount);
+	getline(cin, recipientAccount);
 	cout << endl;
 	cout << setw(69) << "Enter amount to transfer: ";
 	cin >> amount;
+	cout << endl;
+	cout << endl;
+
+	if (amount > MyBalance) {
+		cout << setw(79) << "Insufficient balance. Returning to menu." << endl;
+		Sleep(2500);
+		FinancesMenu();
+	}
+
+	MyBalance -= amount;
 
 	system("cls");
 	AsciiArt();
-	char zero;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(67)  << "Transfer Details" << endl;
+	cout << setw(67) << "Transfer Details" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(63) << "Recipient: " << recipient << endl;
+	cout << setw(64) << "Recipient: " << recipient << endl;
 	cout << endl;
-	cout << setw(66) << "Account Number: " << recipientaccount << endl;
+	cout << setw(66) << "Account Number: " << recipientAccount << endl;
 	cout << endl;
 	cout << setw(58) << "Amount: " << fixed << setprecision(2) << amount << " BGN" << endl;
 	cout << endl;
 	cout << setw(65) << "Your current balance is: " << MyBalance << " BGN" << endl;
 	cout << endl;
-	Sleep(2300);
-	FinancesMenu();
+	cout << endl;
+	cout << setw(74) << "Enter '0' to go back to Menu: ";
+	int zero;
+	cin >> zero;
+	if (zero == 0) {
+		FinancesMenu();
+	}
+	else {
+		Transfer();
+	}
 }
 void Transactions() {
 	system("cls");
@@ -153,7 +180,7 @@ void Investing() {
 	cout << setw(74) << "Enter '0' to Go Back to Menu: ";
 	cin >> zero;
 	if (zero == 0) {
-		FinancesMenu();
+		More();
 	}
 	else {
 		Investing();

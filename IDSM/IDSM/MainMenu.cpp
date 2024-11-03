@@ -34,7 +34,9 @@ void optionsMenu() {
 	cout << setw(63) << "Main Menu" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(62) << "[1] Login         " << "[2] Register" << endl;
+	cout << endl;
 	cout << setw(61) << "[3] About us    " << "[4] Exit" << endl;
+	cout << endl;
 	cout << endl;
 	cout << setw(71) << "Please choose an option: ";
 	cin >> opt;
