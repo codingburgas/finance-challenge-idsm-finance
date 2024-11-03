@@ -34,4 +34,3 @@ IDSM Finances was created by a team passionate about helping people manage their
 - <a href="https://github.com/ISStanchev22">Iliyan Stanchev</a> -> Backend Developer 🟦 10G
 - <a href="https://github.com/DYKartalova22">Dariya Kartalova</a> -> Backend Developer 🟦 10G
 
-## T
