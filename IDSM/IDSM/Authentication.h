@@ -2,3 +2,4 @@
 
 void Registration();
 void Login();
+void AboutUs();

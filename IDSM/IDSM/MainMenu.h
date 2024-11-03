@@ -3,3 +3,5 @@
 void AsciiArt();
 
 void optionsMenu();
+
+void AboutUs();

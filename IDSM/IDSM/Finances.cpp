@@ -105,7 +105,7 @@ void Transfer() {
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 	cout << setw(67) << "Transfer Details" << endl;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << setw(64) << "Recipient: " << recipient << endl;
+	cout << setw(63) << "Recipient: " << recipient << endl;
 	cout << endl;
 	cout << setw(66) << "Account Number: " << recipientAccount << endl;
 	cout << endl;

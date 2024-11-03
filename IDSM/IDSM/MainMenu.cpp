@@ -22,10 +22,6 @@ void AsciiArt() {
 	cout << endl;
 
 }
-void AboutUs() {
-	cout << "We" << endl;
-}
-
 void optionsMenu() {
 	int opt;
 	cout << setw(76) << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
