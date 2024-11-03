@@ -1,10 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u5k3noT3)
 # Team IDSM Finances
-<img src="pictures/logo.png" width=50px; >
+<img src="pictures/logo.png"  >
 
 ## 🚀 Languages Used
 <p align="left">
-  <a href="https://www.cplusplus.com/"><img src="pictures/cpplogo.png" alt="C++"/></a>
+  <a href="https://www.cplusplus.com/"><img src="pictures/cpplogo.png" alt="C++" width=50px;/></a>
 </p>
 
 
