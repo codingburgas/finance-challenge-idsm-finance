@@ -2,8 +2,8 @@
 # Team IDSM Finances
 <img src="pictures/logo.png"  >
 
- ## About The Project
- IDSM Finances is an ambitious project, crafted by a team of dedicated finance and tech enthusiasts. Our aim is to redefine the way people engage with their spendings through cutting-edge technology.
+ ## About Us
+IDSM Finances was created by a team passionate about helping people manage their money with ease. Our goal is to simplify tracking your finances, so you can see where your money goes and make better financial choices every day.
  ## 🚀 Languages Used
 <p align="left">
   <a href="https://www.cplusplus.com/"><img src="pictures/cpplogo.png" alt="C++" width=50px;/></a>
