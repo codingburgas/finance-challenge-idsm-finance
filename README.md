@@ -3,8 +3,8 @@
 <img src="pictures/logo.png"  >
 
  ## About The Project
- <p IDSM Finances is an ambitious project, crafted by a team of dedicated finance and tech enthusiasts. Our aim is to redefine the way people engage with their spendings through cutting-edge technology. >
-## 🚀 Languages Used
+ IDSM Finances is an ambitious project, crafted by a team of dedicated finance and tech enthusiasts. Our aim is to redefine the way people engage with their spendings through cutting-edge technology.
+ ## 🚀 Languages Used
 <p align="left">
   <a href="https://www.cplusplus.com/"><img src="pictures/cpplogo.png" alt="C++" width=50px;/></a>
 </p>
